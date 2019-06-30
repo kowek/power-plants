@@ -24,7 +24,7 @@ L.Control.PanelLayers = L.Control.Layers.extend({
 		autoZIndex: true,
 		collapsibleGroups: false,
 		buildItem: null,				//function that return row item html node(or html string)
-		title: 'Layers:',						//title of panel
+		title: 'Base layers:',						//title of panel
 		className: '',					//additional class name for panel
 		position: 'bottomright'
 	},
