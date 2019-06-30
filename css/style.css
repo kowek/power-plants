@@ -1,0 +1,103 @@
+body{
+	width: 100%;
+	height: 100%;
+	margin: 5px;
+}
+
+
+/*map style properties*/
+#map {
+	display: block;
+	height: 650px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid maroon;
+	border-radius: 8px;
+}
+
+/*maroon titles' style*/
+.newbold {
+	text-align: center;
+	font-family: "Verdana";
+	color: maroon;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+
+
+/*top-left infobox style*/
+.info {
+    padding: 5px;
+    font: 14px/16px Verdana, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.95);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	border-radius: 5px;
+}
+
+
+/* image in infobox*/ 
+img{
+	vertical-align: top;
+	margin: -4px;
+}
+
+.container {
+	padding: 7px;
+	float: left;
+	text-align: center;
+}
+
+
+/*table in infobox*/
+table {	
+	text-align: left;
+	font-size: 12px;
+	border: 1px solid #CCC; 
+	font-family: Verdana, Helvetica, sans-serif;
+  }
+  
+td {
+	padding: 4px;
+	margin: 3px;
+	border: 1px solid #CCC;
+  }
+  
+td:first-child {
+	font-weight: bold;
+	width: 120px;
+	}
+
+th {
+	text-align: center;
+	font-family: "Verdana";
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	height: 25px;	
+}
+
+.hydro {
+	background: #54C0EB;
+}
+
+.black {
+	color: white;
+	background: black;
+}
+
+.wind {
+	color: white;
+	background: #324A5E;
+}
+
+.lignite {
+	color: white;
+	background: #B67D4D;
+}
+
+.gas {
+	background: #ababab;
+}
